@@ -8,7 +8,7 @@ To successfully follow along with the instructor during the course, you'll need 
 
 * Clone the repo to your local computing environment (required)
 
-> **Note:** There are a couple of exercises that make use of Snowflake's command line interface, Snowflake CLI. To successfully follow along during those exercises, you'll need to have the repo cloned to your local computing environment, so that the Snowflake CLI can make use of files and code within this repo.
+> **Note:** There are a couple of exercises that make use of Snowflake's command line interface, Snowflake CLI. To successfully follow along during those exercises, you'll need to have the repo cloned to your local computing environment so that the Snowflake CLI can make use of files and code within this repo.
 
 #### How to clone the repo to your local computing environment:
 
@@ -37,3 +37,5 @@ The course instructor will also be sure to reference the exact folder and name o
 #### Reporting issues or errata
 
 If you encounter technical issues with this code as you complete the course (i.e. typos, missing code, broken links, etc.), please report those issues in the course through Coursera. Ensure the issue contains sufficient detail so that it can be properly addressed.
+
+>**Note:** Unfortunately, I can't connect my free trial account of Snowflake to Visual Studio Code. Because of this, I can't use the Snowflake CLI in VS Code to do the exercises of the Advanced Course. So I created the script called render_sql_env.py to transform the sql documents that I need of the tasty_bytes database so I can use them in Snowsight.
